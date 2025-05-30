@@ -1,0 +1,16 @@
+# 📂 File: requirements.txt
+# -*- coding: utf-8 -*-
+
+# Core libraries
+pandas==2.1.4             # For data manipulation and Excel handling
+openpyxl==3.1.2           # To read/write Excel (.xlsx) files
+PyQt5==5.15.9             # For creating GUI applications
+pyqtgraph==0.13.3         # For fast plotting and real-time graphing with PyQt
+matplotlib==3.10.3        # For data visualization and plotting
+numpy==1.26.4             # For numerical computations and random number generation
+
+# Additional dependencies
+python-dateutil>=2.8.2    # For date/time formatting used in matplotlib
+pillow>=9.0.0             # Image processing backend used by matplotlib
+PyQt5-sip>=12.11.0        # Internal dependency required by PyQt5
+xlsxwriter>=3.1.2         # Optional: an alternative engine for writing Excel files
